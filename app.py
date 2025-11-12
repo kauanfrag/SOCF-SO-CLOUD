@@ -35,7 +35,7 @@ def pegar_info_sistema()
 @APP.route('/')
 def pagina_inicial():
   
-    info = pegar_info_sistema()
+    info = pegar_info_sistema():
     
     html_resposta = f"""
     <html>
