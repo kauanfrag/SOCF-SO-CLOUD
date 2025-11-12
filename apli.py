@@ -1,4 +1,4 @@
-from flask import Flask, jsonif
+from flask import Flask, jsonify
 import os
 import platform
 import psutil
