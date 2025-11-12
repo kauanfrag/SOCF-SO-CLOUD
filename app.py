@@ -51,7 +51,7 @@ def pagina_inicial():
     </html>
     """
     
-    return html_respost
+    return html_resposta
 
 @APP.route('/info')
 def rota_info():
