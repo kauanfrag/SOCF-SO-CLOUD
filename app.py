@@ -3,7 +3,7 @@ import os
 import platform
 import psutil
 
-APP = Flask(__name__
+APP = Flask(__name__)
 
 
 processo_atual = psutil.Process(os.getpid())
