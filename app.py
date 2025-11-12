@@ -63,7 +63,7 @@ def rota_info():
 @APP.route('/metricas')
 def rota_metricas():
     # retorna as métricas em json
-    info = pegar_info_sistema(
+    info = pegar_info_sistema()
     
     resposta = {
         'nome': '[KAUAN FRAGOSO]',
