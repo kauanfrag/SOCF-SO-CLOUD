@@ -8,7 +8,7 @@ APP = Flask(__name__)
 
 processo_atual = psutil.Process(os.getpid())
 
-def pegar_info_sistema()
+def pegar_info_sistema():
  
     
  
